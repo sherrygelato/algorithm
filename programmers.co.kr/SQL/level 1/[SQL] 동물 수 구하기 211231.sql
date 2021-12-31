@@ -1,10 +1,6 @@
-# https://programmers.co.kr/learn/courses/30/lessons/59415
+# https://programmers.co.kr/learn/courses/30/lessons/59406
 
 SELECT
-    DATETIME
+    count(*)
 FROM
-    ANIMAL_INS
-ORDER BY
-    DATETIME DESC
-LIMIT
-    1;
+    ANIMAL_INS;
